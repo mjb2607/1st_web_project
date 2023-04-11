@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="C1">
+    <meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1">
+    <title> Mario Fan Club</title>
+    <link rel="stylesheet" href="mario css code.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="mario fan.jpeg" type="image/ico">
+
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script>
+        $(document).ready(function() {
+        $('#more').click(function() {
+        $('#details').toggle();
+        });
+        });
+   </script>
+</head>
+
+
+<body>
+
+    <header class="header">
+
+
+
+
+  <nav> 
+
+    <div style="margin-top: 3%; margin-left: 10%; padding-right: 0%;"> 
+      
+      <a href="#C1"> Home</a> &nbsp;&nbsp;
+       <a href="#C4">Pictures</a>   &nbsp;&nbsp;
+       <a href="#C2">Fan Art</a>&nbsp;&nbsp;
+       <a href="#C5"> About</a>&nbsp;&nbsp;
+      
+    </div>
+</nav>    
+      
+</header>
+
+       
+    <div class="second" style="height: 17%; width: 100%;  text-align: center;  background-size: 100%;"  style="z-index: 1; opacity: 1; visibility: inherit;" >
+    
+       
+    
+            <div   style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);" >
+    
+              <h2 >
+                
+                <div class="clip-text" style=" display: block; text-align: center; position: relative;">
+                
+               
+    
+    
+                <div style="display: inline-block; margin-left: 0%; font-size: 90%;">M</div>
+                <div style=" display: inline-block; font-size: 90%">A</div>
+                <div style=" display: inline-block;font-size: 90% ">R</div>
+                <div style=" display: inline-block; font-size: 90%">I</div>
+                <div style=" display: inline-block;font-size: 90% ">O</div>
+                <div style=" display: inline-block;font-size: 90% ">F</div>
+                <div style=" display: inline-block;font-size: 90% ">A</div>
+                <div style=" display: inline-block;font-size: 90%">N</div>
+                <div style=" display: inline-block;font-size: 90% ">S</div>
+
+            <br><br>
+               
+            </div> 
+
+
+    <div style="position:relative;display:inline-block;">
+                <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">C</div>
+                <div style="position: relative; display: inline-block;transform: translate(0px, 0px); opacity: 1; visibility: inherit;">L</div>
+                <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">U</div>
+                <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">B</div>
+
+                
+            </div>
+         </div>
+               
+            </h2>
+            </div>
+            <br> <br>
+
+
+<div style=" padding-bottom: 15%; margin-right: 1%;">
+  <button class="button"  ><span  >ABOUT</span></button> <br> <br>
+
+
+
+
+
+
+    <div class="slideshow-container" style="max-width: 2100px; text-align: center;  margin-left: 2%; margin-right: 2%;">
+
+      <div class="mySlides fade" style="padding-right: 30px; padding-left: 30px;" >
+       <p> <p id="C5"  style="font-size: 150%; word-spacing: 3px;">we are a group of super mario fans and our goal of this website is to talk and share content like fan art, pictures and games.</p></p>
+      </div>
+    
+      <div class="mySlides fade">
+        <p style="font-size: 150%; word-spacing: 3px;">Browse hundreds of pics fan art!</p>
+      </div>
+    
+      <div class="mySlides fade">
+        <p style="font-size: 150%; word-spacing: 3px;">see best picks upcoming movies and more..!</p>
+        
+      </div>
+    
+      <a class="prev" style="margin-left: -51%;  font-size: 40px;" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" style="margin-right: -2%; font-size: 40px;" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <div class="mySlides fade" STYLE="height: 350PX;  width: 1000PX; margin-top: -4.5%; background-color: #ffffff;margin-left: 125PX;margin-RIGHT: 125PX; padding-left:25PX ;padding-right: 25PX;  " >
+    <h2 style="text-align: center; padding-top: 0%; color: rgb(9, 9, 9); margin-left: -8%;"><B>Covers all</B></H2> <BR>
+      <p STYLE="font-size: 200%;color: rgb(9, 9, 9);">place for all mario fans.
+     </p>
+    
+    </div>
+    <div class="mySlides fade" STYLE="height: 350PX;  width: 1000PX; margin-top: -4.5%; background-color: #ffffff;margin-left: 125PX;margin-RIGHT: 125PX;   " >
+      <h2 style="text-align: center; padding-top: 0%; color: rgb(9, 9, 9); margin-left: -6%;"> <B>GLOBAL</B> </H2> <BR>
+        <p STYLE="font-size: 200%;color: rgb(9, 9, 9);">website to reach fans around the world.
+       </p>
+      
+      </div>
+
+      
+  
+
+  </div>
+
+  <script>
+    let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }</script>
+
+   <br> <br><br> <br><br> <br>
+   <h3 style="text-align: center; font-size: 200%;">EXPLORE CHARACTERS</h3>
+  <div style="margin-left: 10%;">
+    <ul type="none">  
+     <li>  <img src="mario.jpeg" class="zoom"  > </li>
+     <li>  <img src="luigi.jpeg" class="zoom"  style="background-color: #ffffff;"> </li> 
+     <li>  <img src="peach.jpeg" class="zoom"   style="background-color: #ffffff;padding: 0% ;  "> </li>
+     <li>  <img src="yoshi.jpg" class="zoom"  style="background-color: #ffffff;"> </li> 
+     <li>  <img src="donkey kong.jpeg" class="zoom"  style="background-color: #ffffff;"> </li> 
+     <li>  <img src="dino.jpeg" class="zoom"  style="background-color: #ffffff;"> </li> 
+     <li>  <img src="wario.jpeg" class="zoom"  style="background-color: #ffffff;"> </li> 
+     <li style="display: inline-block;">  <div class="zoom"></div></li>&nbsp;&nbsp;
+    </ul>
+  
+    
+    
+    
+  </div>
+</div>
+        <h2 id="C2" style="color: rgb(166, 179, 179); text-align: left; margin-left: 1em;" >
+            Top Picks <i class="arrow right"></i> <h2></h2>
+    
+        <br><br>
+        
+        <div class="movies"  >
+        
+          <ul class="slider">
+            <li class="slide s1"></li>
+            <li class="slide s2"></li>
+            <li class="slide s3"></li>
+            <li class="slide s4"></li>
+            <li class="slide s5"></li>
+          </ul>
+        
+      </div>
+      <br> <br>
+    </div>
+
+
+      
+
+ 
+<script>  
+function myFunction(x) {  
+  x.classList.toggle("fa-thumbs-down");  
+}  
+</script> 
+
+<div class="top">
+   
+        <h3> <span class="top2"> First movie #1</span> &nbsp; <span class="top3">Mario Bros. </span> &nbsp; &nbsp;Now a Movie.</h3> 
+</div><br>
+<br>
+<h3 style="font-size:xx-large  ;"  >
+        trailer<i class="arrow1 right1"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        photos<i class="arrow1 right1"></i> 
+</h3>
+
+<div>
+    <ul  type="none">
+    <div class="tr" style="float: left;"><li>
+    <video controls="controls" width="400" height="350" poster="sm3dw-character-mario-1920x1080-1.jpg">
+        <source src="super-mario-bros-movie-trailer-3_h480p (1).mp4" type="video/mp4">
+        
+</video></li>
+</div>
+
+
+    <li>
+         
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="mario.jpeg" style="width:550px; height:350px;text-align: center ">
+    </div>
+  
+    <div class="sm3dw-character-mario-1920x1080-1">
+      <img src="f3.png" style="width:550px;  height:350px; text-align: center;">
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="mario fan.jpeg" style="width:550px; height:350px;text-align: center">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+    let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }</script>
+    
+    </li>
+
+
+</ul>
+<br class="clearfloat" >
+<br><br><br>
+
+<br> <br> <br>
+
+
+
+
+<script>
+  function addtowatchlist() {
+      var w=getElementById("watchlist");
+      var y=document.createElement("div")
+      y.textcontent=
+      
+      wt.appendChild(y)
+  }
+</script>
+
+
+
+
+<script>  
+  function myFunction(x) {  
+    x.classList.toggle("fa-thumbs-down");  
+  }  
+  </script> 
+
+
+
+
+<br><br><br>
+<div >
+ <!--<div><hr style=" width:50%;text-align:left;margin-left:0; display: inline-block; "> <h3 style="font-size: 300%;  padding-top: 0%; display: inline-block;  "> COMING SOON</h3>
+ </div> -->
+
+
+ <div  class="float-container" style="margin-right: 2%;">
+  <ul type="none">
+  <div>
+    <li> <img src="crew.jpeg" width="650px" height="400px" style="float: left;"></li>  </div>
+    <div><li> 
+      <h3 style="  padding-top: 0%; display: inline-block; margin-left: 13%; "> now playing in theaters</h3> <hr style=" width:20%;text-align:right; margin-left:0; display: inline-block; "><br>
+      <p style=" word-spacing: 5px; display: inline-block;  width: 50%;  padding-left:  3%; text-align: justify;" > <span style="   font-size: 300%;" > SUPER MARIO BROS. THE MOVIE</span> <br>The story of The Super Mario Bros. on their journey through the Mushroom Kingdom.</p>
+      </div> 
+</li> </ul></div>
+<br>
+
+
+<div  class="float-container" style="margin-right: 2%;">
+  <ul type="none">
+  <div>
+    <li> <img src="game1.jpg" width="650px" height="400px" style="float: right;">
+    </li>  </div> 
+     <div><li>  <h3 style="  padding-top: 0%; display: inline-block; margin-right: 1%; "> Future Games</h3> <hr style=" width:30%;text-align:right; margin-left:0; display: inline-block; "><br>
+      <p style="word-spacing: 5px; display: inline-block;  width: 50%;  padding-right:  3%; text-align: justify;" > <span style="   font-size: 300%;" >MARIO AND RABBIDS</span> <br>The story of The Super Mario Bros. on their journey through the Mushroom Kingdom.</p>
+      </div> 
+</li> </ul></div>
+<br> <br><br>
+
+<div  class="float-container" style="margin-right: 2%;">
+  <ul type="none">
+  <div>
+    <li> <img src="crew2.jpeg" width="650px" height="400px" style="float: left;"></li>  </div>
+    <div><li> 
+      <h3 style="  padding-top: 0%; display: inline-block; margin-left: 7%; "> fan pick of the week</h3> <hr style=" width:24%;text-align:right; margin-left:0; display: inline-block; "><br>
+      <p style="word-spacing: 5px; display: inline-block;  width: 50%;  padding-left:  3%; text-align: justify;" > <span style="   font-size: 300%;" >user123<BR> freinds</span> <br>inspired by team work and friendship.</p>
+      </div> 
+</li> </ul></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<title>Example</title>
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+</style>
+<h4 id="C4">Pictures</h4>
+<main class="grid">
+  <img src="mario fan.jpeg" alt="Sample photo">
+  <img src="fan1.jpeg" alt="Sample photo">
+  <img src="fan2.jpeg" alt="Sample photo">
+  <img src="fan3.jpeg" alt="Sample photo">
+  <img src="fan4.jpeg" alt="Sample photo">
+  <img src="fan5.jpeg" alt="Sample photo">
+</main>
+
+<br>
+<br>
+<br>
+
+<hr>
+
+<h3>Send e-mail to website_creators@example.com:</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+<br>
+<br>
+
+
+
+
+</body>
+</html>
