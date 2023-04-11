@@ -1,0 +1,503 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.second {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+    url(sm3dw-character-mario-1920x1080-1.jpg);align-content: center;  
+    display: flex;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    top: 50;
+}
+
+ * {
+    box-sizing: border-box;
+    /*user-select: none; */
+  }
+  
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 500vh;
+    color: white;
+    background: rgb(231, 1, 1);
+    font-family: "Cormorant Garamond", serif;
+    text-transform: uppercase;
+}
+  
+h2 {
+    font-size: clamp(1rem, 5vw, 5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+  
+header {
+
+    width: 100%;
+  
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+  }
+.hea{margin-left: 50%;}
+.header{
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  padding-bottom: 60px;
+  padding-right: 3%;
+  padding-top: 5%;
+  padding-left: 8%;
+  margin-bottom: 5%;
+}
+nav{  
+  display:flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  text-align: right;
+}
+
+.logo{
+  height:75px;
+  width: 150px;
+  cursor: pointer;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+html *, html *:before, html *:after, html *::before, html *::after {
+    box-sizing: inherit;
+  }
+  */
+  #details { display: none; }
+
+p {
+    font-weight: normal;
+    font-size: 100%;
+    padding: 0;
+    margin-left: 1%;
+}
+  
+dl,
+  dd,
+  menu,
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+ol {
+    list-style-type: decimal;
+}
+  
+
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.movies {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+  
+  .slider {
+    width: 100%;
+    height: 500vh;
+    position: relative;
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  .slider .slide {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .slider .slide:nth-child(1) {
+    background: url("mario fan.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slider .slide:nth-child(2) {
+  
+    background: url("mario\ fan2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slider .slide:nth-child(3) {
+    background: url("mario\ fan3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slider .slide:nth-child(4) {
+    background: url("mario\ fan4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slider .slide:nth-child(5) {
+    background: url("mario\ fan5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slider .slide:hover {
+    width: 60%;
+    cursor: pointer;
+  }
+  .arrow {
+    border: solid rgb(166, 179, 179);
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .float{float:right; opacity: 0.7; margin-right: 1%;}
+.clearfloat{clear:left; }
+h3,h5 {color: #cccccc; margin-left: 1%;}
+
+.plot{ 
+    text-align: left;
+    margin-left: 1%;
+    border-bottom:  20px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom:  1.5em;
+   text-align: justify;
+    border: 1px ;
+    width: 450px;
+    text-decoration: none;
+    float: left;  }
+
+    .plot2{ 
+       color: #cccccc;
+        margin-left: 4%;
+       border-radius: 20px;
+        margin-bottom: 2%;
+        text-align: center;
+        border: 1px solid #ecebe8;
+       padding-bottom: 2em;
+        float: left; 
+       width: 100px ;
+       height: 60px;
+       }
+
+
+
+
+
+.float-container {
+    background-color: #000000;
+   
+    padding-bottom: 100px;
+    padding-left: 0.5em;
+    margin-right: 15em;
+    margin-bottom: 1em;
+}
+.arrow1{
+    border: solid #cccccc;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right1 {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+td{padding: 0%;}
+
+.top{
+    margin-right: 10em;
+    border: #cccccc solid 1px;
+    padding-left: 0;
+    padding-right: 0.5%;
+    margin-left: 1em;
+    margin-right: 25em;
+    border-radius: 20px;
+    
+  
+}
+.top2{  border-radius: 100px; padding:0.85em; background-color: rgb(156, 156, 156); font-weight: bold; color: azure; font-size: x-large; margin-left: -0.75em; }
+.top3{font-weight: bold; font-size: x-large;}
+
+
+.tr {   background-color: #000000;
+ 
+  padding-bottom: 100px;
+  padding-left: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: 420px;
+  height: 370px;
+}
+.ph{   background-color: #000000;
+  border: 1px solid #e4e4e4;
+  padding-bottom: 100px;
+  padding-left: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: 800px;
+  height: 400px;
+}
+
+.star {
+  color: rgb(242, 237, 237); 
+  font-size: 200%; 
+}
+
+.star1 {
+  color: rgb(242, 237, 237); 
+  font-size: 150%; 
+} 
+
+#r {
+  font-size: 150%;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+.fa {  
+  font-size: 200%;  
+  cursor: pointer;  
+  user-select: none;  
+}  
+.fa:hover {  
+  color: rgb(233, 233, 238);
+  opacity: 1}  
+
+p {  
+ color: rgb(212, 212, 225);  
+ }  
+
+ .review {
+  display: inline-block; 
+  background-color: #ffffff;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  padding: 0.1;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin-left: 40%;
+  margin-right: 10%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.review:hover{opacity: 1}
+
+
+
+.slideshow-container {
+
+
+  max-width: 1000px;
+  position: relative;
+margin-right: 15%;
+padding-right: 0.01%;
+  margin-left: 40%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev{margin-left: 0%;  padding-left: 1%;}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+ margin-right: 10%;
+}
+
+.prev:hover, .next:hover {
+  color: #4e2f2f;
+  background-color: rgba(250, 244, 244, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.title {
+  font-size: 300%;
+}
+
+#PAR {font-size: 20PX;}
+
+
+.button {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Cormorant Garamond", serif;
+  margin: 5px;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+   margin-left: 42%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+        #details { display: none; }
+        * {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 10px;
+
+  transition: transform .2s;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  float: left;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.featured {
+background-color: #828181;
+color: #000000;
+font-weight: bold;
+}
+
+
+
+
+
